@@ -14,12 +14,26 @@ img{
 	height: auto;
 }
 
-.div {
-	text-align: center;
+.p {
+	margin: 0;
+}
+
+.img {
+	margin-bottom: 32px;
+}
+
+.section {
+	padding-top: 103px;
+	font-size: 0px;
+	padding-bottom: 70px;
+}
+
+.body {
+	margin: 0;
 }
 
 .container{
-	width: 901px;
+	width: 900px;
 	margin: 0px auto;
 }
 
@@ -29,6 +43,7 @@ img{
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 17px;
+	margin-bottom: 30px;
 }
 
 .head{
@@ -36,18 +51,19 @@ img{
 	color: #626262;
 	font-size: 30px;
 	line-height: 36px;
+	margin-bottom: 42px;
 }
 
 .ul{
-	font-size: 14px;
+	font-size: 0px;
 	line-height: 24px;
 	list-style: none;
-	width: 	901px;
-	margin: auto;
+	margin-top: 70px;
 	text-align: center;	
 }
 
 .ul a {
+	display: block;
 	font-family: 'Playfair Display', serif;
 	color: #626262;
 	text-transform: uppercase;
@@ -68,6 +84,7 @@ img{
 .ul li {
 	display: inline-block;
 	margin-right: 120px;
+	font-size: 14px;
 
 }
 
@@ -77,7 +94,7 @@ img{
 
 .article{
 	display: inline-block;	
-	margin-right: 57px;
+	margin-right: 60px;
 	margin-bottom: 142px;	
 	width: 420px;
 	padding: 0;
@@ -88,17 +105,15 @@ img{
 	margin-right: 0;
 }
 
-.article-1 {
-	margin-top: 103px;
-}
 
 .article-2 {
 	margin-bottom: 57px;
 }
 
 .button{
+	display: block;
 	border: 1px solid;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	width:164px;
 	height:60px;
@@ -109,6 +124,13 @@ img{
 	background-color: #ffffff;
 	cursor: pointer;
 }
+
+.button:hover,
+.button:focus {
+	color: #0dbdc8;
+}
+
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
