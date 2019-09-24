@@ -32,13 +32,16 @@ img{
 	height: auto;
 }
 
-.nav {
-	margin-top: 65px;
+.body {
+	margin: 0;
+}
+
+.head {
+	padding-top: 65px;
 }
 
 .logo {
 	display: inline-block;
-	margin-left: 30px;
 }
 
 .clearfix::after {
@@ -48,7 +51,7 @@ img{
 }
 
 .container {
-	width: 	1170px;
+	width: 	1110px;
 	margin: 0px auto;
 }
 
@@ -57,6 +60,7 @@ img{
 	list-style: none;
 	width: 490px;
 	font-size: 0;
+	padding: 0;
 }
 
 .navigation li {
@@ -86,24 +90,32 @@ img{
 
 .features-image:hover img,
 .features-image:focus img {
-	color: #39c5a9;
+	background-color: #39c5a9;
 }
 
-.features-image:hover p,
-.features-image:focus p {
-	color: #39c5a9;
+.features-image:hover .p1,
+.features-image:focus .p1 {
+	background-color: #39c5a9;
+}
+
+.features-image:hover .p11,
+.features-image:focus .p11 {
+	background-color: #7fd9c7;
 }
 
 .features-image {
 	float: right;
-	margin-left: 30px;
 }
 
-.features-image1 {
+.features-image1:not(:nth-child(1)) {
 	margin-right: 30px;
 }
 
-.features-image:nth-child(-n+4) {
+.features-image2:nth-last-child(-n+3) {
+	margin-right: 30px;
+}
+
+.features-image:nth-child(n-4) {
 	margin-bottom: 30px;
 }
 
@@ -156,6 +168,7 @@ img{
 .img2 {
 	width: 350px;
 	height: 261px;
+	margin-bottom: 15px;
 }
 
 p {
@@ -177,17 +190,24 @@ p {
     width:160px;
     border-bottom: 7px solid #4ec6ab;
     position: absolute;
-    margin-left: 500px; 
+    margin-top: 30px;
+    margin-left: 480px; 
 }
 
 .header1 {
-	margin-top: 110px;
 	margin-bottom: 130px;
 }
 
 .header2 {
-	margin-top: 103px;
 	margin-bottom: 116px;
+}
+
+.section1 {
+	margin-top: 110px;
+}
+
+.section2 {
+	margin-top: 103px;
 }
 
 h3::after {
@@ -199,8 +219,6 @@ h3::after {
 
 .article {
 	width: 350px;
-	margin-left: 30px;
-	margin-bottom: 82px;
 }
 
 .article1 {
@@ -212,8 +230,7 @@ h3::after {
 	font-weight: 600;
 	color: #555252;
 	font-size: 18px;
-	margin-top: 15px;
-	margin-bottom: 45px;
+	margin: 0;
 	line-height: 26px;
 }
 
@@ -222,11 +239,12 @@ h3::after {
 	font-weight: 400;
 	color: #555252;
 	font-size: 14px;
+	margin-top: 45px;
 	margin-bottom: 18px;
 	line-height: 26px;
 }
 
-.button{
+.link {
 	display: block;
 	border: 0px solid;
 	padding: 0;
@@ -239,4 +257,10 @@ h3::after {
 	line-height: 36px;
 	background-color: #4ec6ab;
 	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
+
+.news {
+	padding-bottom: 82px;
 }
