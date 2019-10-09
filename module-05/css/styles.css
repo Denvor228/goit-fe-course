@@ -34,7 +34,9 @@ img{
 
 .slider {
 	position: relative;
-	background: url(../img/slider.jpg) no-repeat center top fixed;
+	background: url(../img/slider.jpg);
+	background-repeat: no-repeat;
+	background: center fixed;
 }
 
 .slider-img {
@@ -70,12 +72,16 @@ img{
 
 .slider-ctrl-prev {
 	left:150px;
-	background-image: url(../img/left.png) no-repeat center top fixed;
+	background-image: url(../img/left.png) center;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .slider-ctrl-next{
 	right:150px;
-	background-image: url(../img/right.png) no-repeat center top fixed;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .body {
@@ -238,19 +244,27 @@ p {
 }
 
 .button1{
-	background-image: url(../img/1.png) no-repeat center top fixed;
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .button2{
-	background-image: url(../img/2.png) no-repeat center top fixed;
+	background-image: url(../img/2.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .button3{
-	background-image: url(../img/3.png) no-repeat center top fixed;
+	background-image: url(../img/3.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .button4{
-	background-image: url(../img/4.png) no-repeat center top fixed;
+	background-image: url(../img/4.png);
+	background-repeat: no-repeat;
+	background-position: left;
 	font-size: 14px;
 	line-height: 32px;
 	font-family: 'Open+Sans', sans-serif; 
@@ -266,7 +280,7 @@ p {
 .button4 img {
 	 position: absolute;
 	 bottom: 10px;
-	 left: 5px;
+	 left: 	0px;
 }
 
 .button4{
