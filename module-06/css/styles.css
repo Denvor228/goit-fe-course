@@ -173,7 +173,7 @@ p {
 	line-height: 28.2px;
 }
 
-.header {
+.header-h {
 	margin-bottom: 110px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -189,7 +189,7 @@ p {
 	margin-top: 12px;
 }
 
-.header::after {
+.header-h::after {
 	content:"";
     display:block;
     width:60px;
@@ -363,12 +363,8 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10 0;
+	padding: 10px 0;
 } 
-
-.footer p {
-	padding: 0 15px;
-}
 
 .p-footer {
 	font-family: 'Myriad Pro', sans-serif;
