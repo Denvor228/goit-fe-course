@@ -126,11 +126,22 @@ p {
 
 .section-services-item{
 	display: flex;
-	align-items: flex-start; 
+	align-items: flex-start;
+	position: relative;
+	flex: 0 0 350px;
+	padding-left: 80px; 
 }
 
-.section-services-item {
-	flex-basis: 330px;
+.section-services-item::before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	left: 25px;
+	top: 0;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .section-services-item:not(:nth-child(3n)){
@@ -141,41 +152,27 @@ p {
 	margin-bottom: 100px;
 }
 
-.section-services-div {
-	margin-left: 28px;
-}
-
-.image {
-	margin: 0;
-	padding:0;
-	width: 72px;
-	height: 32px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 32px 32px;
-}
-
-.home {
+.home::before {
 	background-image: url(../img/HOME.png);
 }
 
-.image-image {
+.image::before {
 	background-image: url(../img/IMAGE.png);
 }
 
-.book {
+.book::before {
 	background-image: url(../img/BOOK.png);
 }
 
-.computer {
+.computer::before {
 	background-image: url(../img/COMPUTER.png);
 }
 
-.line {
+.line::before {
 	background-image: url(../img/LINE.png);
 }
 
-.alarm {
+.alarm::before {
 	background-image: url(../img/ALARM.png);
 }
 
