@@ -277,7 +277,7 @@ input[type=text] {
 }
 
 
-input[type=textarea] {
+.textarea {
   width: 100%;
   padding: 14px 20px;
   margin: 0;
@@ -323,11 +323,11 @@ input[type=text]:valid:nth-child(1) {
 	border-color: green;
 }
 
-input[type=textarea]:invalid {
+.textarea:invalid {
 	border-color: red;
 }
 
-input[type=textarea]:valid {
+.textarea:valid {
 	border-color: green;
 }
 
