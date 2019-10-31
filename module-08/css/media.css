@@ -1,0 +1,182 @@
+@media  (max-width: 659px){
+
+.contain {
+	padding-top: 20px;
+	padding-bottom: 138px;
+	background-image: url(../img/background1.jpg);
+}
+
+.article {
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.links {
+	margin-bottom: 118px;
+	justify-content: center;
+}
+
+.logo {
+	margin-bottom: 38px;
+	justify-content: center;
+}
+
+.header-section {
+	width: 212px;
+	margin-bottom: 20px;
+}
+
+.under-header {
+	width: 220px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.section {
+	padding-top: 70px;
+	padding-bottom: 58px;
+}
+
+}
+
+@media (min-width: 660px) {
+	
+.contain {
+	width: 100%;
+	padding-top: 38px;
+	padding-bottom: 138px;
+	background-image: url(../img/background2.jpg);
+	background-size: 100% 100%;
+}
+
+.container {
+	width: 660px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-weight: 700;
+}
+
+.head {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 160px;
+}
+
+.header {
+	font-weight: 700;
+	color: #ffffff;	
+	font-size: 52px;
+	line-height: 62.4px;
+}
+
+.under-header {
+	margin: 0 auto;
+	margin-bottom: 38px;
+	font-size: 24px;
+	line-height: 28.8px;
+}
+
+.header-button {
+	font-weight: 700;
+}
+
+.header-section {
+	margin-bottom: 35px;
+}
+
+.section {
+	width: 66%;
+	margin: 0 auto;
+	padding-top: 105px;
+	padding-bottom: 40px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.article-bottom {
+	margin-bottom: 60px;
+}
+
+.button-section {
+	margin-top: 40px;
+}
+
+}
+
+@media (min-width: 940px) {
+
+.contain {
+	width: 100%;
+	padding-top: 38px;
+	padding-bottom: 235px;
+	background-image: url(../img/background.jpg);
+	background-size: 100% 100%;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-weight: 700;
+}
+
+.head {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 156px;
+}
+
+.header {
+	font-weight: 700;
+	color: #ffffff;	
+	font-size: 52px;
+	line-height: 62.4px;
+	margin-bottom: 42px;
+}
+
+.under-header {
+	margin: 0 auto;
+	margin-bottom: 38px;
+	font-size: 24px;
+	line-height: 28.8px;
+}
+
+.header-button {
+	font-weight: 700;
+}
+
+.header-section {
+	margin-bottom: 35px;
+}
+
+.section {
+	width: 66%;
+	margin: 0 auto;
+	padding-top: 105px;
+	padding-bottom: 75px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.button-section {
+	margin-top: 40px;
+}
+
+}

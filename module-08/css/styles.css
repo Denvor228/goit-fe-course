@@ -1,0 +1,255 @@
+html{
+	box-sizing: border-box;	
+}
+
+*, 
+*::before, 
+*::after{
+	box-sizing: inherit;
+}
+
+img{
+	display: block;
+	max-width: 	100%;
+	height: auto;
+}
+
+body {
+	margin:0;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h3{
+	margin: 0;
+}
+
+p {
+	margin:0;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*HEADER*/
+
+.links a {
+	text-decoration: none;
+	text-align: center;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #ffffff;	
+	font-size: 14px;
+	line-height: 16.8px;
+}
+
+.links li:hover,
+.links li:focus {
+	opacity: 0.4;
+}
+
+.logo {
+	display: flex;
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	color: #ffffff;	
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.log-in {
+	padding: 10px 0;
+	margin-right: 20px;
+}
+
+.sign-in {
+	border: 2px solid #fcfcfc;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.contain {
+	background-size: 100% 100%;
+	background-position: contain;
+	background-repeat: no-repeat;
+}
+
+.links {
+	display: flex;
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.header {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	color: #ffffff;	
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+.under-header {
+	text-align: center;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #ffffff;	
+	font-size: 18px;
+	line-height: 21.6px;
+}
+
+.button {
+	width: 280px;
+	height: 40px;
+	border: 2px solid #ff4e50;
+	border-radius: 80px;
+}
+
+.header-button {
+	background-color: #ff4e50; 
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	color: #ffffff;	
+	font-size: 14px;
+	line-height: 16.8px;
+
+}
+
+.header-button:hover,
+.header-button:focus {
+	opacity: 0.7;
+}
+
+/*CONTAINER*/
+
+.container {
+	margin: 0 auto;
+	width: 320px;
+	align-items: center;
+}
+
+/*SECTION*/
+
+.header-section {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	color: #333333;	
+	font-size: 22px;
+	line-height: 26.4px;
+
+}
+
+.image{
+	margin: 0 auto;
+}
+
+.img {
+	position: relative;
+}
+
+
+.two {
+	position: absolute;
+	top: 70%;
+	left: 60%;
+}
+
+.article {
+	width: 216px;
+}
+
+
+.name {
+	text-align: center;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #333333;	
+	font-size: 14px;
+	line-height: 16.8px;
+	margin: 20px auto;
+}
+
+.about {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #666666;	
+	font-size: 14px;
+	line-height: 16.8px;
+}
+
+.button-section {
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #ff4e50;	
+	font-size: 14px;
+	line-height: 16.8px;
+
+}
+
+.button-section:hover,
+.button-section:focus {
+	opacity: 0.7;
+}
+
+/*FONTS*/
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v14-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v20-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+}
