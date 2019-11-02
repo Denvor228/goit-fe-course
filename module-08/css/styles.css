@@ -163,11 +163,28 @@ button {
 	position: relative;
 }
 
+.img::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 70%;
+  left: 60%;
+}
 
-.two {
-	position: absolute;
-	top: 70%;
-	left: 60%;
+.one::after {
+	content: url(../img/one.png);
+}
+
+.two::after {
+	content: url(../img/two.png);
+}
+
+.three::after {
+	content: url(../img/three.png);
+}
+
+.four::after{
+	content: url(../img/four.png);
 }
 
 .article {
