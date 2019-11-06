@@ -367,6 +367,10 @@ button {
 	margin-bottom: 60px;
 }
 
+.article {
+	margin: 0 auto;
+}
+
 .button-section {
 	margin-top: 40px;
 }
@@ -424,6 +428,10 @@ button {
 	margin: 0 auto;
 	padding-top: 105px;
 	padding-bottom: 75px;
+}
+
+.article {
+	margin: 0 auto;
 }
 
 .button-section {
